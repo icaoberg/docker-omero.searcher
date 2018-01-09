@@ -1,8 +1,12 @@
 FROM ubuntu:latest
 
 MAINTAINER Ivan E. Cao-Berg <icaoberg@andrew.cmu.edu>
-LABEL Description="OMERO.searcher local client."
-LABEL Vendor="Carnegie Mellon University"
+LABEL Author="icaoberg"
+LABEL Laboratory="Murphy Lab"
+LABEL Department="Computational Biology Department"
+LABEL University="Carnegie Mellon University"
+LABEL Vendor="Murphy Lab in the Computational Biology Department at Carnegie Mellon University"
+LABEL Description="OMERO.searcher local client over Docker."
 LABEL Version="1.3"
 
 ENV DEBIAN_FRONTEND noninteractive
