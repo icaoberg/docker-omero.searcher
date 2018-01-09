@@ -8,7 +8,9 @@
 
 ## Overview
 
-This Dockerfile prepares a container with OMERO.searcher local client. This is not a container for the OMERO.searcher plugin for OMERO.
+This Dockerfile prepares a container with OMERO.searcher local client. 
+
+:warning: This is not a container for an OMERO instance with the OMERO.searcher plugin.
 
 ### OMERO.searcher Local Client
 
