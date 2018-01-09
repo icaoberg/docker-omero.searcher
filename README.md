@@ -8,6 +8,8 @@
 
 ## Overview of OMERO.searcher
 
+![OMERO.searcher screenshot](https://www-legacy.openmicroscopy.org/site/products/partner/omero.searcher/images/searcher-1/image)
+
 OMERO.searcher is an extension of the OMERO.web client that provides the ability to search for images by their content (e.g., subcellular patterns) rather than just by their annotations. It was developed by the Murphy group at Carnegie Mellon University.
 
 OMERO.searcher
@@ -18,7 +20,7 @@ OMERO.searcher
 
 * can be iterative, meaning it allows the user to refine the search results (a process referred to as relevance feedback).
 
-
+### OMERO.searcher Local Client
 
 To build a container using the `Dockerfile` in this repository, run the command
 
