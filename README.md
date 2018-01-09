@@ -12,23 +12,9 @@ This Dockerfile prepares a container with OMERO.searcher local client. This is n
 
 ### OMERO.searcher Local Client
 
-![OMERO.searcher local client](/images/local.png)
+The local client allows a user to use a local query image against a pre-computed content database.
 
-The local client allows the users to use local query image against a pre-computed content database.
-
-### OMERO.searcher
-
-![OMERO.searcher server](/images/server.png)
-
-OMERO.searcher is an extension of the OMERO.web client that provides the ability to search for images by their content (e.g., subcellular patterns) rather than just by their annotations. It was developed by the Murphy group at Carnegie Mellon University.
-
-OMERO.searcher
-
-* finds images whose content, as reflected by subcellular location image features, is similar to one or more query images.
-
-* can use positive and/or negative examples.
-
-* can be iterative, meaning it allows the user to refine the search results (a process referred to as relevance feedback).
+### Using the container
 
 To build a container using the `Dockerfile` in this repository, run the command
 
@@ -41,6 +27,10 @@ This should build a container
 ```
 ➜  docker container ls -a
 ```
+
+If the container was built successfully, then the end of your output should look similar to this
+
+![OMERO.searcher local client](/images/local.png)
 
 ## References
 
