@@ -1,0 +1,13 @@
+sudo: required
+
+services:
+  - docker
+
+# whitelist
+branches:
+  only:
+    - master
+
+before_install:
+- docker build -t murphylab/omerosearcher .
+
