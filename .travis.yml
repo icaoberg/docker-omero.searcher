@@ -11,3 +11,5 @@ branches:
 before_install:
 - docker build -t murphylab/omerosearcher .
 
+script:
+  - docker images
