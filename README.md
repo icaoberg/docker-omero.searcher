@@ -18,16 +18,16 @@ The local client allows a user to use a local query image against a pre-computed
 
 ### Using the container
 
-To build a container using the `Dockerfile` in this repository, run the command
+To build an image using the `Dockerfile` in this repository, run the command
 
 ```
 ➜ docker build -t "murphylab/omerosearcher" .
 ```
 
-This should build a container
+To run a container using the image above
 
 ```
-➜  docker container ls -a
+➜  docker run -i -t "murphylab/omerosearcher"
 ```
 
 If the container was built successfully, then the end of your output should look similar to this
