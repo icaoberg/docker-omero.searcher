@@ -1,6 +1,6 @@
 # docker-omero.searcher
 
-![Build Status](https://travis-ci.org/icaoberg/docker-omero.searcher.svg?branch=master)
+[![Build Status](https://travis-ci.org/icaoberg/docker-omero.searcher.svg?branch=master)](https://travis-ci.org/icaoberg/docker-omero.searcher)
 [![GitHub issues](https://img.shields.io/github/issues/icaoberg/docker-omero.searcher.svg)](https://github.com/icaoberg/docker-omero.searcher/issues)
 [![GitHub forks](https://img.shields.io/github/forks/icaoberg/docker-omero.searcher.svg)](https://github.com/icaoberg/docker-omero.searcher/network)
 [![GitHub stars](https://img.shields.io/github/stars/icaoberg/docker-omero.searcher.svg)](https://github.com/icaoberg/docker-omero.searcher/stargazers)
