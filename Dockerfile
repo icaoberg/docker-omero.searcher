@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:16.04
 
 MAINTAINER Ivan E. Cao-Berg <icaoberg@andrew.cmu.edu>
 LABEL Author="icaoberg"
@@ -32,7 +32,7 @@ WORKDIR /home/murphylab
 USER $USERNAME
 
 # Get OMERO.searcher local client
-RUN wget -nc http://murphylab.web.cmu.edu/software/searcher/omero.searcher.client-v1.3.tgz
+RUN echo "Downloading OMERO.searcher client version 1.3.0" && wget --quiet -nc http://murphylab.web.cmu.edu/software/searcher/omero.searcher.client-v1.3.tgz
 RUN tar -xf omero.searcher.client-v1.3.tgz
 RUN rm -f omero.searcher.client-v1.3.tgz
 RUN rm -rf ./omero.searcher.client-v1.3/ricerca
