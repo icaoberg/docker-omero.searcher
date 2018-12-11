@@ -18,6 +18,8 @@ The local client allows a user to use a local query image against a pre-computed
 
 ### Using the container
 
+[![asciicast](https://asciinema.org/a/216275.svg)](https://asciinema.org/a/216275)
+
 To build an image using the `Dockerfile` in this repository, run the command
 
 ```
