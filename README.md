@@ -36,6 +36,14 @@ If the container was built successfully, then the end of your output should look
 
 ![OMERO.searcher local client](/images/local.png)
 
+### Pushing the container
+
+```
+docker build -t icaoberg/omero.searcher .
+docker tag icaoberg/omero.searcher icaoberg/omero.searcher:1.3
+docker push icaoberg/omero.searcher:1.3
+```
+
 ## References
 
 * B.H. Cho, I. Cao-Berg, J.A. Bakal, and R.F. Murphy (2012) [OMERO.searcher: Content-based image search for microscope images](https://www.nature.com/articles/nmeth.2086). Nature Methods 9:633-634.
