@@ -24,13 +24,13 @@ The local client allows a user to use a local query image against a pre-computed
 To build an image using the `Dockerfile` in this repository, run the command
 
 ```
-➜ docker build -t "murphylab/omerosearcher" .
+➜ docker build -t "icaoberg/omerosearcher" .
 ```
 
 To run a container using the image above
 
 ```
-➜  docker run -i -t "murphylab/omerosearcher"
+➜  docker run -i -t "icaoberg/omerosearcher"
 ```
 
 If the container was built successfully, then the end of your output should look similar to this
