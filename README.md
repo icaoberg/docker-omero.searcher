@@ -55,4 +55,5 @@ docker push icaoberg/omero.searcher:1.3
 Development of OMERO.searcher has been supported by US National Institutes of Health grants GM075205 (R.F. Murphy, PI), EB008516 (K.W. Eliceiri, PI), and GM092708 (C.M. Kane, PI), and by grant 095931 from the Wellcome Trust (Jason Swedlow, PI).
 
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
+
 Copyright (c) 2012-2019 by the [Murphy Lab](http://murphylab.web.cmu.edu) at the [Computational Biology Department](http://www.cbd.cmu.edu) in [Carnegie Mellon University](http://www.cmu.edu)
