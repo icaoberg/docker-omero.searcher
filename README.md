@@ -52,6 +52,7 @@ docker push icaoberg/omero.searcher:1.3
 * Leejay Wu, Christos Faloutsos, Katia P. Sycara, and Terry R. Payne. 2000. [FALCON: Feedback Adaptive Loop for Content-Based Retrieval](http://www.cs.cmu.edu/~christos/PUBLICATIONS/vldb2k-falcon.pdf). In Proceedings of the 26th International Conference on Very Large Data Bases (VLDB '00), Amr El Abbadi, Michael L. Brodie, Sharma Chakravarthy, Umeshwar Dayal, Nabil Kamel, Gunter Schlageter, and Kyu-Young Whang (Eds.). Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 297-306.
 
 ---
+[![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
 
 Development of OMERO.searcher has been supported by US National Institutes of Health grants GM075205 (R.F. Murphy, PI), EB008516 (K.W. Eliceiri, PI), and GM092708 (C.M. Kane, PI), and by grant 095931 from the Wellcome Trust (Jason Swedlow, PI).
 
